@@ -94,7 +94,7 @@ public class SignUpTest extends NewSetUp {
             clientUtils.waitForElement(driver,personalDetails.personalDetailsTitle);
             logger.debug("Taking screenshot for personal details screen");
 
-            logger.debug("Added new linie");
+            logger.debug("Added new line");
             ++index;
             NewSetUp.getScreenshot(driver,index+"PersonalDetails",currentMethodName);
             WebElement typeOfParkingWebElement = personalDetails.selectTypeOfParking(driver,hashMap.get("Type of Parking").toString());
