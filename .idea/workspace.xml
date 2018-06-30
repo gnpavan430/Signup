@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="786b3289-c0ab-400c-9448-6d088cba2682" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="786b3289-c0ab-400c-9448-6d088cba2682" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -535,10 +533,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021482" side_tool="true" visible="true" weight="0.367531" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.5021482" side_tool="true" visible="true" weight="0.367531" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49194413" weight="0.25366405" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49785176" visible="true" weight="0.367531" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49785176" visible="true" weight="0.367531" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.32919955" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
