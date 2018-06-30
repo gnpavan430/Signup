@@ -108,6 +108,7 @@ public class SignUpTest extends NewSetUp {
             clientUtils.sendText(driver,personalDetails.confirmPassword,hashMap.get("Confirm Password").toString());
             clientUtils.click(driver,personalDetails.mobileNumber);
             Assert.assertTrue(clientUtils.checkElementVisibility(driver,personalDetails.confirmPasswordValidationErrorMessage));
+            logger.info("First line in new branch");
         }
         finally {
             index=0;
