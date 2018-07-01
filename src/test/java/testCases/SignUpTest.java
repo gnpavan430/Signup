@@ -1,5 +1,9 @@
 package testCases;
 
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import org.testng.Reporter;
 import pageclasses.HomePage;
 import pageclasses.PersonalDetails;
 import pageclasses.SignupOptionsPage;
@@ -13,6 +17,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.math.BigDecimal;
+import java.sql.Statement;
 import java.util.HashMap;
 //All the test methods are written in this class
 public class SignUpTest extends NewSetUp {
@@ -62,10 +67,17 @@ public class SignUpTest extends NewSetUp {
 
         ;
     }
+    @Test
+    public void extentTest(){
+        loggerExtent = extent.createTest("New Extent test");
+        loggerExtent.log(Status.INFO,"Extent test status info");
+    }
     //This test method is to check the password validations for personal details fields
     @Test
     public void passwordValidations() throws Exception {
         try{
+            String screenshotPath = NewSetUp.getScreenshotExtent(driver,"extentPasswordValidations");
+            loggerExtent = extent.createTest("Password Validations Test Extent");
             testCaseExecutor = new TestCaseExecutor();
             currentMethodName = new Object(){}.getClass().getEnclosingMethod().getName();
             hashMap= testCaseExecutor.createHashMapForSpecificRow(currentMethodName);
@@ -83,6 +95,9 @@ public class SignUpTest extends NewSetUp {
             logger.info("Clicked the Country button in Signup options page");
             logger.info("Taking the screenshot of Signup page");
             ++index;
+            loggerExtent.log(Status.INFO, "Extent logger info message showing the test is executed");
+            loggerExtent.addScreenCaptureFromPath("./screenshots/"+"ExtentLoggertitle"+".png");
+            loggerExtent.addScreenCaptureFromPath(screenshotPath,"PasswordFieldValidationsExtentReport");
             NewSetUp.getScreenshot(driver,index+"SignUpPage",currentMethodName);
             WebElement countryWebElement = signupOptionsPage.selectCountryFromList(driver,hashMap.get("Country").toString());
             logger.info("Selecting the country");

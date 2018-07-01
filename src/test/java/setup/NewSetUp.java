@@ -1,5 +1,13 @@
 package setup;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import utilities.HTMLUtility;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -26,6 +34,9 @@ public class NewSetUp {
     public static Logger logger;
     public static int testCasesCount=0;
     public static HashMap<Object,Object> testdata;
+    ExtentHtmlReporter htmlReporter;
+    public static ExtentReports extent;
+    public static ExtentTest loggerExtent;
 
     public static String screenshotsPath=System.getProperty("user.dir") + File.separator + "screenshots\\";
     public static String logPath = System.getProperty("user.dir") + File.separator + "logs\\";
@@ -42,6 +53,22 @@ public class NewSetUp {
         logger = Logger.getLogger("NewSetUp.class");
         PropertyConfigurator.configure(properties.getPropertyValue("log4jproperties"));
 
+
+    }
+    @BeforeTest
+    public void startExtentReport(){
+
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"\\test-output\\STMExtentReport.html");
+        extent = new ExtentReports();
+        extent.attachReporter(htmlReporter);
+        extent.setSystemInfo("Host Name", "TestAutomation");
+        extent.setSystemInfo("Environment", "Automation Testing");
+        extent.setSystemInfo("User Name", "Pavan");
+
+        htmlReporter.config().setDocumentTitle("Signup Regression Report");
+        htmlReporter.config().setReportName("Regression Testing Report");
+        htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+        htmlReporter.config().setTheme(Theme.STANDARD);
     }
     //This method starts creating HTML template
     @BeforeClass
@@ -68,6 +95,8 @@ public class NewSetUp {
             FileUtils.copyFile(file,newFile);
             clearFileData(file);
             HTMLUtility.testCaseExecutionStatus(testCasesCount,testCaseScenario.getName(),"Fail",screenshotsPath+result.getName()+"\\",newFile);
+            loggerExtent.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
+            loggerExtent.log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
         }
         else if(result.getStatus()==ITestResult.SKIP){
             File file = new File(properties.getPropertyValue("logFilePath"));
@@ -75,11 +104,13 @@ public class NewSetUp {
             FileUtils.copyFile(file,newFile);
             clearFileData(file);
             HTMLUtility.testCaseExecutionStatus(testCasesCount,testCaseScenario.getName(),"No Run",screenshotsPath+result.getName()+"\\",newFile);
+            loggerExtent.log(Status.SKIP, MarkupHelper.createLabel(result.getName() + " - Test Case Skipped", ExtentColor.ORANGE));
 
         }
 
 
     }
+
     //This method is used for clearing the log file data. Log file data is cleared to get separate log file for each test case run
     public void clearFileData(File file) throws IOException {
         FileWriter fw = new FileWriter(file);
@@ -101,6 +132,18 @@ public class NewSetUp {
         FileUtils.copyFile(source, finalDestination);
         return destination;
     }
+    //This method takes the screenshot and returns the path of the screenshot
+    public static String getScreenshotExtent(WebDriver driver, String screenshotName) throws Exception {
+        String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        //after execution, you could see a folder "FailedTestsScreenshots" under src folder
+
+        String destination = System.getProperty("user.dir") + File.separator + "screenshots\\"+screenshotName+".jpeg";
+        File finalDestination = new File(destination);
+        FileUtils.copyFile(source, finalDestination);
+        return destination;
+    }
     //This method is for quitting the driver
     @AfterMethod
     public void atearDown()
@@ -111,5 +154,9 @@ public class NewSetUp {
     @AfterClass
     public void endReport() throws IOException {
         HTMLUtility.closeHTMLReport();
+    }
+    @AfterTest
+    public void endExtentReport(){
+        extent.flush();
     }
 }

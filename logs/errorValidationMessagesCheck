@@ -1,8 +1,0 @@
-2018-06-26 06:18:22 INFO  class:239 - Signup button is clicked
-2018-06-26 06:18:22 INFO  class:240 - Checking the Cookies text visibility
-2018-06-26 06:18:23 INFO  class:243 - Clicked the Cookies text allow button
-2018-06-26 06:18:23 INFO  class:245 - Clicked the Country button in Signup options page
-2018-06-26 06:18:23 INFO  class:246 - Taking the screenshot of Signup page
-2018-06-26 06:18:23 INFO  class:250 - Selecting the country
-2018-06-26 06:18:24 INFO  class:253 - Clicking on the Choose button
-2018-06-26 06:18:24 INFO  class:255 - Waiting for personal details screen to load
