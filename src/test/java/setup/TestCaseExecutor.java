@@ -99,7 +99,8 @@ public class TestCaseExecutor {
             String feature = (String) testcaseObject.get("Feature");
             String testName = getParameterFromJson(name,"testName");
             String testData = getParameterFromJson(name,"testData");
-            TestCaseScenario scenario = new TestCaseScenario(id, name, testName,info, feature,testData);
+            String executeStatus = getParameterFromJson(name,"executeStatus");
+            TestCaseScenario scenario = new TestCaseScenario(id, name, testName,info, feature,testData,executeStatus);
             scenarios.add(scenario);
         }
         scenarios.sort(Comparator.comparing(TestCaseScenario::getId));

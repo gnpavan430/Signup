@@ -2,59 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786b3289-c0ab-400c-9448-6d088cba2682" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/extent-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExtentReportsClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/setup/AnnnotationTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/discoveryCategoryFranceSignUp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/emailValidation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/errorValidationMessagesCheck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/licensePlateNumberValidation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/mobileNumberValidation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/passwordValidations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/silverCategoryGermanSignUp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/discoveryCategoryFranceSignUp/1SignUpPage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/discoveryCategoryFranceSignUp/2PersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/discoveryCategoryFranceSignUp/3AfterFillingPersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/discoveryCategoryFranceSignUp/4AfterfillingCreditcardetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/discoveryCategoryFranceSignUp/5Creditcardtermsandconditions.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/discoveryCategoryFranceSignUp/htmlFile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/emailValidation/1SignUpPage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/emailValidation/2PersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/emailValidation/3AfterFillingPersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/emailValidation/htmlFile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/errorValidationMessagesCheck/1SignUpPage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/errorValidationMessagesCheck/2ErrorValidationMessages.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/errorValidationMessagesCheck/htmlFile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/licensePlateNumberValidation/1SignUpPage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/licensePlateNumberValidation/2PersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/licensePlateNumberValidation/3AfterFillingPersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/licensePlateNumberValidation/htmlFile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/mobileNumberValidation/1SignUpPage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/mobileNumberValidation/2PersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/mobileNumberValidation/htmlFile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/passwordValidations/1SignUpPage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/passwordValidations/2PersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/passwordValidations/htmlFile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/silverCategoryGermanSignUp/1SignUpPage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/silverCategoryGermanSignUp/2PersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/silverCategoryGermanSignUp/3AfterFillingPersonalDetails.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/silverCategoryGermanSignUp/htmlFile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AppConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AppConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setup/NewSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setup/NewSetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/SignUpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AppConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AppConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Setup/NewSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Setup/NewSetUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/report/HtmlTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/report/HtmlTemplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/~$TestData.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/report/HtmlTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/report/HtmlTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/TestCases.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/TestCases.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setup/TestCaseExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setup/TestCaseExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setup/TestCaseScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setup/TestCaseScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Setup/TestCaseExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Setup/TestCaseExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Setup/TestCaseScenario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Setup/TestCaseScenario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/report/HtmlTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/TestCases.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/resources/TestData.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/SignUpTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,7 +32,7 @@
       <file leaf-file-name="SignUpTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testCases/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="-5206">
               <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtentTest.class" pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/ExtentTest.class">
+      <file leaf-file-name="TestCaseExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/setup/TestCaseExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="394" column="22" selection-start-line="394" selection-start-column="22" selection-end-line="394" selection-end-column="22" />
+            <state relative-caret-position="229">
+              <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ClientUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -95,7 +62,7 @@
       <file leaf-file-name="ExtentReportsClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ExtentReportsClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="409">
               <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,17 +76,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="165">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -127,29 +85,52 @@
       <file leaf-file-name="NewSetUp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/setup/NewSetUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+            <state relative-caret-position="112">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnnotationTransformer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/setup/AnnnotationTransformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
-                <element signature="e#6818#6819#0" expanded="true" />
-                <element signature="e#6848#6849#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/AppConfig.properties">
+      <file leaf-file-name="TestCases.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/resources/TestCases.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testlog.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/testlog.log">
+      <file leaf-file-name="TestCaseScenario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/setup/TestCaseScenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160" />
+            <state relative-caret-position="480">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding>
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppConfig.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/AppConfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="83" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="83" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -158,8 +139,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -196,7 +177,6 @@
         <option value="$PROJECT_DIR$/log/testlog.log" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/resources/TestCases.json" />
         <option value="$PROJECT_DIR$/src/test/java/Setup/NewSetUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageClasses/PersonalDetails.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageClasses/HomePage.java" />
@@ -212,10 +192,14 @@
         <option value="$PROJECT_DIR$/src/test/java/report/ExtentReports.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/ExtentReports.java" />
         <option value="$PROJECT_DIR$/test-output/STMExtentReport.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/AppConfig.properties" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/ExtentReportsClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/testCases/SignUpTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/setup/NewSetUp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/setup/TestCaseScenario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/TestCases.json" />
+        <option value="$PROJECT_DIR$/src/test/java/setup/TestCaseExecutor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/setup/AnnnotationTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/AppConfig.properties" />
       </list>
     </option>
   </component>
@@ -227,10 +211,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1678" />
-    <option name="height" value="1030" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,8 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,11 +237,6 @@
               <item name="Signup" type="b2602c69:ProjectViewProjectNode" />
               <item name="Signup" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Signup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Signup" type="462c0819:PsiDirectoryNode" />
-              <item name="reportScreenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Signup" type="b2602c69:ProjectViewProjectNode" />
@@ -367,12 +343,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="ExtentReports&#9;PSI&#9;JAVA://utilities.ExtentReports&#10;cou&#9;FILE&#9;jar://C:/Users/X085271/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar!/schemaorg_apache_xmlbeans/system/s8C3F193EE11A2F798ACF65489B9E6078/countersignaturetypee52atype.xsb" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ParkMobileDemo/ParkMobileAutomation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -405,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SignUpTest.passwordValidations">
+  <component name="RunManager" selected="TestNG./Users/logsuser/IdeaProjects/Signup/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -441,35 +419,6 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ExtentReportsClass.failTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Signup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="utilities" />
-      <option name="MAIN_CLASS_NAME" value="utilities.ExtentReportsClass" />
-      <option name="METHOD_NAME" value="failTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -570,6 +519,29 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="/Users/logsuser/IdeaProjects/Signup/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Signup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -594,18 +566,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.ExtentReportsClass" />
-      <item itemvalue="TestNG.ExtentReportsClass.failTest" />
       <item itemvalue="TestNG.SignUpTest.passwordValidations" />
       <item itemvalue="TestNG.SignUpTest.passwordValidations (1)" />
       <item itemvalue="TestNG.SignUpTest.extentTest" />
+      <item itemvalue="TestNG./Users/logsuser/IdeaProjects/Signup/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/logsuser/IdeaProjects/Signup/testng.xml" />
         <item itemvalue="TestNG.SignUpTest.passwordValidations" />
         <item itemvalue="TestNG.SignUpTest.extentTest" />
         <item itemvalue="TestNG.ExtentReportsClass" />
         <item itemvalue="TestNG.SignUpTest.passwordValidations (1)" />
-        <item itemvalue="TestNG.ExtentReportsClass.failTest" />
       </list>
     </recent_temporary>
   </component>
@@ -628,7 +600,6 @@
       <updated>1530344483618</updated>
     </task>
     <task id="LOCAL-00002" summary="New changelist">
-      <changelist id="2521bd58-c831-44c3-9a01-b3cf081e84cc" name="New changelist" comment="" />
       <created>1530344533986</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
@@ -668,15 +639,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignUpTest_passwordValidations - 2018.06.30 at 15h 59m 07s.xml">
-      <configuration name="SignUpTest.passwordValidations" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTest_passwordValidations - 2018.06.30 at 16h 01m 25s.xml">
-      <configuration name="SignUpTest.passwordValidations" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTest_passwordValidations - 2018.06.30 at 16h 06m 53s.xml">
-      <configuration name="SignUpTest.passwordValidations" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SignUpTest_passwordValidations - 2018.06.30 at 16h 08m 55s.xml">
       <configuration name="SignUpTest.passwordValidations" configurationId="TestNG" />
     </history-entry>
@@ -698,6 +660,15 @@
     <history-entry file="SignUpTest_passwordValidations - 2018.06.30 at 16h 27m 45s.xml">
       <configuration name="SignUpTest.passwordValidations" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_logsuser_IdeaProjects_Signup_testng_xml - 2018.07.08 at 17h 20m 42s.xml">
+      <configuration name="/Users/logsuser/IdeaProjects/Signup/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_logsuser_IdeaProjects_Signup_testng_xml - 2018.07.08 at 17h 24m 12s.xml">
+      <configuration name="/Users/logsuser/IdeaProjects/Signup/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_logsuser_IdeaProjects_Signup_testng_xml - 2018.07.08 at 17h 25m 25s.xml">
+      <configuration name="/Users/logsuser/IdeaProjects/Signup/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -709,54 +680,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49570355" weight="0.32919955" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49194413" weight="0.32807216" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.198174" side_tool="true" visible="true" weight="0.2626832" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.801826" visible="true" weight="0.2626832" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49624062" weight="0.27395716" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.32919955" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7691131" visible="true" weight="0.22932331" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946293" weight="0.32807216" />
-      <window_info id="Structure" order="1" sideWeight="0.23088685" side_tool="true" visible="true" weight="0.22932331" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6874329" weight="0.3990981" />
-      <window_info id="Favorites" order="5" sideWeight="0.45652175" side_tool="true" weight="0.22932331" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.32919955" />
-      <window_info id="Structure" order="1" sideWeight="0.50084037" side_tool="true" weight="0.22610097" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49624062" weight="0.32919955" />
-      <window_info id="Favorites" order="5" sideWeight="0.12839879" side_tool="true" visible="true" weight="0.22610097" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989259" weight="0.15558061" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49194413" visible="true" weight="0.25366405" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49838883" weight="0.3990981" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49097222" weight="0.32780084" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50805587" side_tool="true" visible="true" weight="0.25366405" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5090278" side_tool="true" visible="true" weight="0.4702628" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8716012" visible="true" weight="0.22610097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49097222" visible="true" weight="0.4702628" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989259" weight="0.15558061" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946293" weight="0.32919955" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81201047" visible="true" weight="0.22569445" />
+      <window_info id="Structure" order="1" sideWeight="0.50084037" side_tool="true" weight="0.22610097" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49838883" weight="0.3990981" />
+      <window_info id="Favorites" order="5" sideWeight="0.18798956" side_tool="true" visible="true" weight="0.22569445" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946293" weight="0.32807216" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -862,16 +813,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCases/SignUpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="100" column="79" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/resources/TestCases.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -907,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="59" column="89" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,54 +905,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/HTMLReportConstants.java" />
     <entry file="file://$PROJECT_DIR$/log/testlog1.log" />
     <entry file="file://$PROJECT_DIR$/testlogMon.log" />
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/emailValidation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/silverCategoryGermanSignUp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class" />
+    <entry file="file://$PROJECT_DIR$/logs/emailValidation" />
+    <entry file="file://$PROJECT_DIR$/logs/silverCategoryGermanSignUp" />
     <entry file="file://$PROJECT_DIR$/log/application.html" />
     <entry file="file://$PROJECT_DIR$/log/testlog+new Date().log" />
-    <entry file="file://$PROJECT_DIR$/logs/errorValidationMessagesCheck">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/errorValidationMessagesCheck" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Setup/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/TestCases.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/TestCaseScenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/TestCaseExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1063,16 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/HTMLUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
@@ -1094,13 +981,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/log/testlog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="45">
           <caret line="3" column="39" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
@@ -1112,29 +997,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/AppConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/extentPasswordValidations.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/screenshots/extentPasswordValidations.png" />
+    <entry file="file://$PROJECT_DIR$/reportScreenshots/extentPasswordValidations.png" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/ExtentTest.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/testCases/SignUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5206">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reportScreenshots/extentPasswordValidations.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/TestCaseScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/TestCases.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/TestCaseExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="136" column="26" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ExtentReportsClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="409">
           <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1144,31 +1061,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/setup/NewSetUp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/AnnnotationTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
-          <folding>
-            <element signature="e#6818#6819#0" expanded="true" />
-            <element signature="e#6848#6849#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testCases/SignUpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+        <state relative-caret-position="195">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/ExtentTest.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/setup/NewSetUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="394" column="22" selection-start-line="394" selection-start-column="22" selection-end-line="394" selection-end-column="22" />
+        <state relative-caret-position="112">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/AppConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="83" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="83" />
         </state>
       </provider>
     </entry>
